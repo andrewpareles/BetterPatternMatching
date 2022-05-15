@@ -44,4 +44,19 @@ TODO:
 what about positive/negative lookahead/behind?
 gmiyusd?
 
+
+
+
+TODO: 
+match string 
+with pattern 
+replacing
+*1 with (match *1 with ...)
+*2 with ...
+returning *1 *2 *3 ... 
+order by len(*1 + *2 + *3 + ...)
+
+pattern = (- *$i)^$n means:
+match - a -b -c -dddddd -eeeeeeee f g h
+with *1 = a, *2 = b, *3 = c, *4 = dddddd, *5 = eeeeeeee f g h
 */

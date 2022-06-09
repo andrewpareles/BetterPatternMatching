@@ -3,7 +3,7 @@
 
 /*
 
-(space \s) -> '' // change to .*
+(space \s) -> '' // change to * as below
 \space -> ' '
 
 \* -> *

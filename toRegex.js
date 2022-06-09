@@ -3,7 +3,7 @@
 
 /*
 
-(space \s) -> '' // change to * as below
+(space \s) -> '' // change to lazy match group
 \space -> ' '
 
 \* -> *
